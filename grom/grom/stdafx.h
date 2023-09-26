@@ -1,0 +1,10 @@
+#pragma once
+#define WIN32_LEAN_AND_MEAN
+#define _CRT_SECURE_NO_WARNINGS
+#include "targetver.h"
+#include <stdio.h>
+#include <string.h>
+#include <assert.h>
+#include <errno.h>
+#include <math.h>
+#include <windows.h>
