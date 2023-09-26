@@ -10,8 +10,8 @@ void test1 (grammar & g1, grammar & g2) {
     SYMB S = g2.reg_nont("S");
     SYMB A = g2.reg_nont("A");
     SYMB B = g2.reg_nont("B");
-    SYMB a = g2.reg_nont("a");
-    SYMB b = g2.reg_nont("b");
+    SYMB a = g2.reg_term("a");
+    SYMB b = g2.reg_term("b");
 
     RULE rule;
     rule[0] = S;
@@ -109,9 +109,9 @@ void test3 (grammar & g1, grammar & g2) {
 
 // алгоритмы общих действий с грамматикой
 void grammar_general(grammar & g1, grammar & g2) {
-    //test1(g1, g2);
+    test1(g1, g2);
     //test2(g1, g2);
-    test3(g1, g2);
+    //test3(g1, g2);
 }
 
 // точка входа в алгоритм
