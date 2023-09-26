@@ -1,19 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grom", "grom\grom.vcxproj", "{37D0B33F-08BD-471F-B1BA-FB6D771D8055}"
 EndProject
 Global
-    GlobalSection(SolutionConfigurationPlatforms) = preSolution
-        Debug|x86 = Debug|x86
-    EndGlobalSection
-    GlobalSection(ProjectConfigurationPlatforms) = postSolution
-        {37D0B33F-08BD-471F-B1BA-FB6D771D8055}.Debug|x86.ActiveCfg = Debug|Win32
-        {37D0B33F-08BD-471F-B1BA-FB6D771D8055}.Debug|x86.Build.0 = Debug|Win32
-    EndGlobalSection
-    GlobalSection(SolutionProperties) = preSolution
-        HideSolutionNode = FALSE
-    EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37D0B33F-08BD-471F-B1BA-FB6D771D8055}.Debug|x86.ActiveCfg = Debug|Win32
+		{37D0B33F-08BD-471F-B1BA-FB6D771D8055}.Debug|x86.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11C3FDF1-3212-4700-87B5-B51C61DB5713}
+	EndGlobalSection
 EndGlobal
