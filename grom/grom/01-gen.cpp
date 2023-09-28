@@ -109,7 +109,7 @@ void test3 (grammar & g1, grammar & g2) {
 
 // алгоритмы общих действий с грамматикой
 void grammar_general(grammar & g1, grammar & g2) {
-    test1(g1, g2);
+    //test1(g1, g2);
     //test2(g1, g2);
     //test3(g1, g2);
 }
