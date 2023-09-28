@@ -186,6 +186,7 @@ int main(int argc, char* argv[]) {
         }
     }
 }
+
 // путь к файлу грамматики
 char main_path[MAX_FILE_SPEC] = {0};
 // спецификация файла грамматики
