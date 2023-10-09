@@ -7,6 +7,12 @@
 
 // группирует правила в порядке появления нетерминалов
 void group_rules(grammar & g1, grammar & g2) {
+
+    // Копируем идентификаторы символов из g1 в g2
+    for (int i = 0; i <= MAX_TERM + MAX_NONT; i++) {
+        strncpy(g2.ident[i], g1.ident[i], MAX_ID);
+    }
+
     SSET P;
     SSET Q;
 

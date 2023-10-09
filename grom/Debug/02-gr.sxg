@@ -1,0 +1,8 @@
+<S>
+<S>=<B>
+<S>=<A><B>
+<B>=[b]
+<A>=<S><A>
+<A>=<B>
+<A>=[a]
+.Inconsistent

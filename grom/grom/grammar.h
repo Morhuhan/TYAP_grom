@@ -109,11 +109,12 @@ public:
 };
 // класс грамматики
 class grammar {
+public:
     // правила
     RULE rules[1 + MAX_RULE];
     // идентификаторы символов
     char ident[2 + MAX_TERM + MAX_NONT][1 + MAX_ID];
-public:
+
     // конструктор по умолчанию
     grammar();
     // очищает объект
