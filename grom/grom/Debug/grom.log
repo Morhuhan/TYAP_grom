@@ -1,20 +1,2 @@
-﻿  01-gen.cpp
-  02-gr.cpp
-  03-us.cpp
-  04-ur.cpp
-  05-re.cpp
-  06-rc.cpp
-  07-lr.cpp
-  08-lf.cpp
-  09-cnf.cpp
-  10-faus.cpp
-  11-faau.cpp
-  12-aufa.cpp
-  13-dfa.cpp
-  14-fainv.cpp
-  15-minfa.cpp
-  16-rexfa.cpp
-  17-farex.cpp
-  main.cpp
-  Создание кода...
+﻿  03-us.cpp
   grom.vcxproj -> C:\Users\radio\OneDrive\Рабочий стол\TYAP_grom-main\grom\Debug\grom.exe
