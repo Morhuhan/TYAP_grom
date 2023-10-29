@@ -8,11 +8,6 @@
 // группирует правила в порядке появления нетерминалов
 void group_rules(grammar & g1, grammar & g2) {
 
-    // Копируем идентификаторы символов из g1 в g2
-    for (int i = 0; i <= MAX_TERM + MAX_NONT; i++) {
-        strncpy(g2.ident[i], g1.ident[i], MAX_ID);
-    }
-
     SSET P;
     SSET Q;
 
@@ -44,7 +39,7 @@ void group_rules(grammar & g1, grammar & g2) {
             if (rule[0] == A) {
 
                 // Добавим rule в g2
-                g2.rule_add(rule);
+                g2.rule_add_from(g1, rule);
 
                 // Пусть symbol_count — количество символов правила rule.
                 int symbol_count = rule.count();
@@ -63,7 +58,6 @@ void group_rules(grammar & g1, grammar & g2) {
 
                             // включим его в Q.
                             Q.insert(B);
-
                         }
                     }
                 }

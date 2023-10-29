@@ -1,7 +1,7 @@
 <S>
 <S>=<A><B>
-<A>=<A>
+<A>=[a]
 <A>=<B><B>
-<B>=<B>
+<B>=[b]
 <B>=.
-.Consistent
+
