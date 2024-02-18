@@ -1,0 +1,7 @@
+<A>
+<A>=[a][b][a][b]
+<B>=[d]
+<B>=[e]
+<B>=[f]
+<A>=[a][b][c]<B>
+.Consistent
